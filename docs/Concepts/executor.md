@@ -94,9 +94,10 @@ sidebar_label: Executor
       podAggregator: avg
       targetValue: "2"
     obIndicantname: mem-cost-example
-    parameters:
-      tagging-key: memory
-      tagging-value: sensitive
+    actionData:
+      labels:
+        memory-sensitive: "true"
+        metric-source: metric-server
   status:
     actionInfo:
     - conditionValue: "true"

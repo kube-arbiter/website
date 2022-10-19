@@ -15,13 +15,13 @@ For the get command, the main idea is to select the target `ObservabilityIndican
 
 ## Supported commands
 - get  
-get is used to obtain an `ObservabilityIndicant` or a set of `ObservabilityIndicant` data. Supported parameters include
+get is used to obtain an `ObservabilityIndicant` or a set of `ObservabilityIndicant` data. Supported flags include
     
-    -m metric, sets the name of the data source to be displayed, e.g. cpu, memory, etc. More than one is not supported
+    -m metric, sets the name of the data source to be displayed, such cpu, memory that defined in the OBI. Only one metric name is supported for now.
     
     -a aggregation, to show the aggregated form of the data, e.g. MAX, MIN, etc. Multiple displays are separated by commas.
     
-    -n namespace, specify a namespace, default is default, -nA means all namespaces
+    -n namespace, specify a namespace, default is default, -A means all namespaces
     
     -la=b, get a set of `ObservabilityIndicant` display data in the form of a label. Default is empty, no label is used.
 

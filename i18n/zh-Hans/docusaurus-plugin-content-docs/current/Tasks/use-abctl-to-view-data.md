@@ -17,7 +17,7 @@ How to manage resouces using abctl command line tool.
 get 用来获取一个或者一组 `ObservabilityIndicant` 数据。支持的参数包括
     - -m metric, 设置要展示的数据源名称，例如 cpu，memory 等。不支持多个
     - -a aggregation, 用来展示数据的聚合形式，例如 MAX,MIN等。 展示多个通过逗号分隔。
-    - -n namespace, 指定某个namespace，默认是 default，-nA 表示所有的 namespace
+    - -n namespace, 指定某个namespace，默认是 default，-A 表示所有的 namespace
     - -la=b， 使用label的形式获取一组 `ObservabilityIndicant` 展示数据。默认是空，不使用label。
 
 - version  
