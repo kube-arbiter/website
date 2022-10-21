@@ -43,7 +43,7 @@ status:
   metrics: {}
 ```
 In the sample above, we have the following configuration:
-1. meatadata, that's the default for all Kubernetes resources
+1. metadata, that's the default for all Kubernetes resources
 2. source under spec, it's the type of observability tool that Arbiter will read data from, you can only use the type that Arbiter can support. Support metric-server and prometheus for now.
 3. metric under spec, it's the data collection policy from the source.
 
