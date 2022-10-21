@@ -49,7 +49,7 @@ The last function `GetMetrics` is used to get monitoring data.
 
 ## CRD Definition
 
-[observer-crd]
+[observer-crd](https://github.com/kube-arbiter/arbiter/blob/main/manifests/crds/arbiter.k8s.com.cn_observabilityindicants.yaml)
 
 ## Field meaning
 1. source field  
@@ -62,17 +62,17 @@ The last function `GetMetrics` is used to get monitoring data.
 
 3. targetRef 字段  
 `targetRef` is used to identify a specific resource associated with an `ObservabilityIndicant`, such as a Pod, or a Node.
-```yaml
-targetRef:
-  group: ""
-  index: 1
-  kind: Node
-  labels:
-    beta.kubernetes.io/arch: amd64
-  name: ""
-  namespace: ""
-  version: v1
-```
+    ```yaml
+    targetRef:
+      group: ""
+      index: 1
+      kind: Node
+      labels:
+        beta.kubernetes.io/arch: amd64
+      name: ""
+      namespace: ""
+      version: v1
+    ```
 
 Use `group`, `kind`, `version` to determine the type and version of a specific resource, and use `name` or `labels+index` to determine a specific resource.
 After the resource is obtained, the query statement can be filled with the resource.
