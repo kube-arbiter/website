@@ -111,22 +111,3 @@ sidebar_label: Executor 介绍
 NAME                        READY   STATUS    RESTARTS   AGE   LABELS
 mem-cost-78ccff7d6b-vbm7n   1/1     Running   0          10d   app=mem-cost,memory=sensitive,pod-template-hash=78ccff7d6b
 ```
-
-
-
-### Resource Tagger 数据模型驱动图
-![image-20220306110303070](./img/resource-tagger-data-flow.png)
-
-
-## Related Projects
-https://github.com/kubernetes-sigs/kube-scheduler-simulator
-
-https://github.com/kubernetes-sigs/kueue
-
-https://github.com/intel/platform-aware-scheduling
-https://github.com/AliyunContainerService/gpushare-scheduler-extender
-
-
-Koordinator（云原生混部项目）
-EHPA / AHPA
-推出了 AHPA，可以根据历史资源画像，对弹性周期和用量进行预测，提前扩容来保障服务质量，已经在菜鸟 PAAS 平台、阿里云智能语音服务多种场景经过验证。帮助智能语义交互产品实现 90% 的实例在业务来临之前 Ready，CPU 利用率提升 10% 节省 20% 的资源成本。
