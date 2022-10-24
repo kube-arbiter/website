@@ -91,7 +91,7 @@ The current minimum supported version of arbiter is `1.18`, so for the optional 
     sudo su
 
     cd arbiter;
-    export K8S_VERSION=v1.23; bash tests/papre-k8s.sh
+    export K8S_VERSION=v1.23; bash tests/prepare-k8s.sh
     ```
 
 3. Execute the test
