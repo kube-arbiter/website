@@ -58,31 +58,31 @@ To put forward a PR, we assume you have registered a GitHub ID. Then you could f
    clone repository to your local machine. Then you can create new branches to finish the change you wish to make.
 3. **Set remote** upstream to be `https://github.com/kube-arbiter/arbiter.git` using the following two commands:
 
-```bash
-git remote add upstream https://github.com/kube-arbiter/arbiter.git
-git remote set-url --push upstream no-pushing
-```
+   ```bash
+   git remote add upstream https://github.com/kube-arbiter/arbiter.git
+   git remote set-url --push upstream no-pushing
+   ```
 
-Adding this, we can easily synchronize local branches with upstream branches.
+   Adding this, we can easily synchronize local branches with upstream branches.
 
 4. **Create a branch** to add a new feature or fix issues
 
-Update local working directory:
+   Update local working directory:
 
-```bash
-cd <project>
-git fetch upstream
-git checkout main
-git rebase upstream/main
-```
+   ```bash
+   cd <project>
+   git fetch upstream
+   git checkout main
+   git rebase upstream/main
+   ```
 
-Create a new branch:
+   Create a new branch:
 
-```bash
-git checkout -b <new-branch>
-```
+   ```bash
+   git checkout -b <new-branch>
+   ```
 
-Make any change on the new-branch then build and test your codes.
+   Make any change on the new-branch then build and test your codes.
 
 ### PR Description
 
