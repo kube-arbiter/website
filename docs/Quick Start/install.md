@@ -33,12 +33,11 @@ git clone https://github.com/kube-arbiter/arbiter
 
 Container images are available in the Docker Hub. You can pull and push to your image registry or use them directly if your cluster can access docker hub.
 ```
-docker pull kubearbiter/observer:v0.1.0
-docker pull kubearbiter/observer-metric-server:v0.1.0
-docker pull kubearbiter/observer-prometheus-server:v0.1.0
+docker pull kubearbiter/observer:v0.2.0
+docker pull kubearbiter/observer-default-plugins:v0.2.0
 
-docker pull kubearbiter/executor:v0.1.0
-docker pull kubearbiter/executor-resource-tagger:v0.1.0
+docker pull kubearbiter/executor:v0.2.0
+docker pull kubearbiter/executor-default-plugins:v0.2.0
 
 docker pull kubearbiter/scheduler:v0.1.0
 ```

@@ -269,7 +269,7 @@
   "Allow to trigger custom actions based on OBI, help to mark resource status using different rules or automate manual works.": {
     "message": "基于 OBI 数据，允许触发自定义行为，可以辅助资源的按策略自动标记及自动化人工任务。"
   },
-  "Provide various out-of-the-box plugins from real user scenarios, to help user get start quickly and provide community support.": {
+  "Provide various out-of-the-box plugins from real user scenarios, to support various requirements and provide community support.": {
     "message": "提供了真实场景下丰富的、开箱即用的插件，帮助用户快速开始体验，并提供技术社区支持。"
   },
   "Designed to Extend": {

@@ -1,5 +1,5 @@
 ---
-sidebar_position: 3
+sidebar_position: 5
 title: 关闭计算节点
 sidebar_label: 关闭计算节点
 ---

@@ -1,5 +1,5 @@
 ---
-sidebar_position: 2
+sidebar_position: 3
 title: Scheduling by resource usage
 sidebar_label: Scheduling by resource usage
 ---

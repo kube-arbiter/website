@@ -22,7 +22,7 @@ Executors define behaviors based on OBI metrics to allow users to quickly scale 
 
 ![image-20220306110303070](./img/resource-tagger-workflow-v0.3.png)
 
-`executor-resource-tagger` and `observer` do not interact through API calls, but data-driven interaction through data update and acquisition of ObservabilityIndicant CR.
+`executor` and `observer` do not interact through API calls, but data-driven interaction through data update and acquisition of ObservabilityIndicant CR.
 
 ### Data Driven Model Diagram
 ![image-20220306110303070](./img/resource-tagger-data-flow.png)

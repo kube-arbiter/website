@@ -1,5 +1,5 @@
 ---
-sidebar_position: 1
+sidebar_position: 2
 title: 更新资源
 sidebar_label: 更新资源
 ---

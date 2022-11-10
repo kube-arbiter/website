@@ -28,4 +28,4 @@ Here are some typical scenarios we're trying to provide possible solutions using
 
 TBD：
 1. Support grouping of nodes for resource isolation
-2. Oversold configuration of pod and node for temporary resource feed
+2. Configurable overcommit of pod and node resources

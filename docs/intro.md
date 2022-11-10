@@ -33,7 +33,7 @@ You can also install the dashboard for better visualization, will add later.
 4. Scheduling based on actual resource usage of node
 5. Classify the pod/deployment/statefulset/service based on the resource sensitivity and the baseline defined by the administrator
 6. Support grouping of nodes for resource isolation
-7. Oversold configuration of pod and node for temporary resource feed
+7. Configurable overcommit of pod and node resources
 
 ##### Scenarios
 Here are some typical scenarios we're trying to provide possible solutions using arbiter, refer to [User Cases](category/user-cases)

@@ -108,7 +108,7 @@ As mentioned in the installation documentation, all that is needed to implement 
                 name: sock-volume
             - command:
                 - observer
-            image: kubearbiter/observer:v0.1.0
+            image: kubearbiter/observer:v0.2.0
             name: obi-controller
             resources:
                 limits:

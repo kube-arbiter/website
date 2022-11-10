@@ -1,5 +1,5 @@
 ---
-sidebar_position: 2
+sidebar_position: 3
 title: 负载感知调度
 sidebar_label: 负载感知调度
 ---
