@@ -1,5 +1,5 @@
 ---
-sidebar_position: 5
+sidebar_position: 6
 title: Power off node
 sidebar_label: Power off node
 ---
