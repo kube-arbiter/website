@@ -13,7 +13,7 @@ The CPU or RAM consumption of an application may not correctly indicate the righ
 
 The metric-server aims to provides only the core metrics such as memory and CPU of pods and nodes. For all other metrics, you need to build the full metrics pipeline. 
 <div style={{textAlign:"center"}}>
-    <img src="../img/fc48842443642c3cbee311aaabb5aaf9c863a74796848bf3c831efeaedaca62e.png" width="360" valign="center"/>
+    <img src="/docs/img/fc48842443642c3cbee311aaabb5aaf9c863a74796848bf3c831efeaedaca62e.png" width="360" valign="center"/>
 </div>
 We use external metrics for OBI adapter.
 
