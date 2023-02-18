@@ -6,25 +6,28 @@ sidebar_label: Overview
 ## Scenarios of Arbiter
 Here are some typical scenarios we're trying to provide possible solutions using arbiter.
 
-1、按节点实际使用资源调度
 
-1）根据节点实际的资源使用情况，比如CPU、内存、磁盘、网络等指标，同待调度服务的对应 limit 值进行比较，
+1. Scheduling by actual resource usage of nodes
 
-2、按集群、节点分区类型（比如开发、测试、生产）及水位调度，尽量提高资源利用率，释放闲置节点资源
+1) Compare the actual resource usage of nodes, such as CPU, memory, disk, network and other indicators, with the corresponding limit values of the services to be scheduled.
 
-1）基于分区的调度策略
+2. Scheduling by cluster, node partition type (e.g. development, test, production) and water level to maximize resource utilization and release idle node resources
 
-3、对服务按资源敏感打标签
+1) Partition-based scheduling strategy
 
-4、基于服务label的节点关联（类似 pod 亲和性，通过非指定标签和 injector 实现）
+3. Labeling of services by resource sensitivity
 
-5、如何处理node资源利用率不均匀的现象（内存利用率远大于cpu利用率）
-基于节点 + 服务的实际使用资源的调度
+4. node association based on service label (similar to pod affinity, achieved by unspecified labels and injector)
 
-6、节点资源预留
-通过调度，允许对某些节点预留一定资源，以备不时之需
+5. How to deal with uneven node resource utilisation (memory utilisation is much higher than cpu utilisation)
 
-7、资源超卖比配置
+Scheduling of actual resource usage based on nodes + services
+
+6. node resource reservation
+
+Scheduling allows for certain resources to be reserved for certain nodes in case of emergencies
+
+7. Resource oversell ratio configuration
 
 TBD：
 1. Support grouping of nodes for resource isolation

@@ -3,8 +3,8 @@ sidebar_position: 1
 title: 概览
 sidebar_label: 概览
 ---
-## Scenarios of Arbiter
-Here are some typical scenarios we're trying to provide possible solutions using arbiter.
+## Arbiter 的使用场景
+下面是一些 Arbiter 可以提供解决方案的典型场景。
 
 1、按节点实际使用资源调度
 
@@ -26,6 +26,6 @@ Here are some typical scenarios we're trying to provide possible solutions using
 
 7、资源超卖比配置
 
-TBD：
-1. 有做节点超配
-2. 基于服务优先级的超卖比设置
+待办：
+1. 通过节点分组支持资源隔离
+2. Pod 和 Node 资源可配置超卖
