@@ -8,6 +8,9 @@ Arbiter-Scheduler supports multiple scheduling policies configured by users and 
 For example, if a user has both development and production type pods on a cluster (Even in the same namespace is supported
 ), they may want to use the MostAllocated policy to schedule the development type pods for better resource usage and the LeastAllocated policy to schedule the production type pods for better performance and stability.
 
+This is the overall architecture:
+![arbiter-use-multiple-score](./img/arbiter-use-multiple-score.png)
+
 Users can define a production type `Score` CR that is dedicated to scheduling production type pods, and we assume that production type pods have the label `app.kubernetes.io/type: prod`:
 
 ```yaml

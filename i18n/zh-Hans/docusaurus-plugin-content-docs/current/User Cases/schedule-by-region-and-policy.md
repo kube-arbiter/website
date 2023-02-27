@@ -7,6 +7,9 @@ Arbiter-Scheduler 支持动态使用不同的调度策略，因此我们可以�
 
 例如，用户在一个集群上(甚至是在同一个 namespace 上也支持)有开发和生产类型的 pod，他们可能希望使用 MostAllocated 策略来安排开发类型的 pod，以更好地使用资源使用，并使用 LeastAllocated 策略调度生产类型的 pod 来提高性能和稳定性。
 
+整体架构图如下:
+![arbiter-use-multiple-score](./img/arbiter-use-multiple-score.png)
+
 用户可以定义一个生产类型的 `Score` CR，专门调度生产类型 pod，我们假定生产类型的 pod 带有 label `app.kubernetes.io/type: prod`：
 
 ```yaml

@@ -6,6 +6,9 @@ sidebar_label: Application Scaling
 
 Here we will introduce how to use OBI to integrate with OBI metrics and HPA to scale application(pods).
 
+This is the overall architecture:
+![arbiter-obi-to-hpa](./img/arbiter-obi-to-hpa.png)
+
 ### Basic Concepts
 
 #### Custom Metrics

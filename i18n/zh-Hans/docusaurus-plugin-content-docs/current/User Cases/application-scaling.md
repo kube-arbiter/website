@@ -6,6 +6,9 @@ sidebar_label: 应用弹性伸缩
 
 Here we will introduce how to use OBI to integrate with OBI metrics and HPA to scale application(pods).
 
+整体的架构图如下：
+![arbiter-obi-to-hpa](./img/arbiter-obi-to-hpa.png)
+
 ### Basic Concepts
 
 #### Custom Metrics

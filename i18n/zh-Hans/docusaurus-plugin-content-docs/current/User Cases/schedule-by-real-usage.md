@@ -11,6 +11,9 @@ sidebar_label: 负载感知调度
 
 :::
 
+整体架构图如下:
+![arbiter-real-usage-architecture](./img/arbiter-real-usage-architecture.png)
+
 ### 1. 准备一个 kubernetes 集群
 
 本例中使用的集群包含两个节点：每个节点有 2 个 CPU 核心和 8GiB 的内存。每个节点都带有一个自定义的 label `data-test: data-test` 以方便后续的测试。
