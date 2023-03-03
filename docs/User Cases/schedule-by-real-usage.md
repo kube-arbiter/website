@@ -11,6 +11,9 @@ The following example is part of our [e2e test](https://github.com/kube-arbiter/
 
 :::
 
+This is the overall architecture:
+![arbiter-real-usage-architecture](./img/arbiter-real-usage-architecture.png)
+
 ### 1. Prepare a kubernetes cluster
 
 The cluster used in this example contains two nodes: each node has 2 CPU cores and 8 GiB of memory. Each node comes with a custom label `data-test: data-test` to facilitate subsequent testing.
